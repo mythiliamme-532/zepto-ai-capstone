@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+langgraph>=0.1.0
+sentence-transformers>=2.6
+chromadb>=0.4.24
+requests>=2.31
+
+# Optional, only needed for the MOCK_LLM=0 extension (not required for grading):
+# groq>=0.5
