@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data pipeline generated artifacts (regenerate via scrape.py / clean_and_load.py)
+data_pipeline/raw_books.csv
+
+# Analytics generated artifacts (regenerate via 01_eda.py / 02_modeling.py)
+analytics/charts/
+analytics/*.joblib
+
+# Support assistant generated index (regenerate via ingest.py)
+support_assistant/chroma_store/
+
+# OS
+.DS_Store
